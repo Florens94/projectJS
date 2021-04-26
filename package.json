@@ -1,0 +1,13 @@
+{
+  "name": "proyectojs_duarteflorencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/landing-page.scss css/landing-page.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Florencia Duarte",
+  "license": "ISC"
+}

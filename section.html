@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Plataforma que incluye recomendaciones de actividades nocturnas en la ciudad de Posadas, Misiones, Argentina.">
+
+  <title>POSADEÑA LINDA</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="css/landing-page.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+  
+
+</head>
+
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">POSADEÑA LINDA</a>
+      <a class="btn btn-primary" href="https://web.whatsapp.com/">Compartir</a>
+    </div>
+  </nav>
+
+
+  </header>
+
+  <!-- Options -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+      <div class="col-lg-6 order-lg-2 text-white showcase-img" id="map" style="background-image: url('img/bares1.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>BARES</h2>
+          <p class="lead mb-0" id="bajadaBar">Gran variedad de lugares en donde disfrutar con amigxs, nuestro catálogo incluye lugares con cerveza de elaboración propia</p>
+          <button id="btnBar">SELECCIONA PRESUPUESTO</button>
+          <br>
+          <div id="seleccionBares"></div>
+          <div class="info"></div>
+          <form class="formReserva"></form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-2 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--JavaScript -->
+  <script src="js\main.js"></script>
+  <script src="js\bares.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body> 
+
+</html>
